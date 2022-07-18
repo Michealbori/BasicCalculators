@@ -1,0 +1,153 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: rgb(200, 194, 194);
+}
+.calculator
+{
+    display: flex;
+    justify-content: center;
+}
+.calculator input
+{
+ background: white;
+}
+.display-box #result
+{
+    height: 2em;
+    font-size: 2em;
+    width: 52%;
+    background-color: rgb(236, 20, 20);
+    border: none;
+    font-weight: 800;
+    margin-top: 2em;
+    border-radius: 0.2em;
+    color: rgb(93, 89, 89);
+    padding: 0.3em;
+}
+.display-box input:focus
+{
+outline: none;
+}
+  /* #radius
+  {
+    width: 7%;
+    height: 50%;
+  } */
+.first_input input
+{
+    padding: 0.7em;
+    border-radius: 50% 10%;
+    border: none;
+    font-weight: 800;
+    margin: 0.8em;
+    background: whitesmoke;
+}
+.second_input input
+{
+    border-radius: 50% 10%;
+    border: none;
+    font-weight: 800;
+    margin: 0.8em;
+    padding: 0.7em;
+    background: whitesmoke;
+}
+.third_input input
+{
+    border-radius: 50% 10%;
+    border: none;
+    font-weight: 800;
+    margin: 0.8em;
+    padding: 0.7em;
+    background: whitesmoke;
+}
+
+.last_input input
+{
+    border-radius: 50% 10%;
+    border: none;
+    font-weight: 800;
+    margin: 0.8em;
+    padding: 0.7em;
+    background: whitesmoke;
+}
+
+#equal
+{
+    background-color: rgb(236, 20, 20);
+ 
+}
+.copy-right
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    /* font-family: georgia; */
+    font-family:  system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+@media only screen and (max-width: 600px) 
+{
+    .buttons_section > Div 
+{
+    margin-left: 2em;
+}
+    .display-box #result
+{
+    height: 2em;
+    font-size: 2em;
+    width: 70%;
+    background-color: rgb(236, 20, 20);
+    border: none;
+    font-weight: 800;
+    margin-top: 2em;
+    margin-left: 1em;
+    border-radius: 0.2em;
+    color: rgb(93, 89, 89);
+    padding: 0.3em;
+}
+    .first_input input
+    {
+        padding: 0.7em;
+        border-radius: 50% 10%;
+        border: none;
+        font-weight: 800;
+        margin: 0.8em;
+        background: whitesmoke;
+    }
+    .second_input input
+    {
+        border-radius: 50% 10%;
+        border: none;
+        font-weight: 800;
+        margin: 0.8em;
+        padding: 0.7em;
+        background: whitesmoke;
+    }
+    .third_input input
+    {
+        border-radius: 50% 10%;
+        border: none;
+        font-weight: 800;
+        margin: 0.8em;
+        padding: 0.7em;
+        background: whitesmoke;
+    }
+    
+    .last_input input
+    {
+        border-radius: 50% 10%;
+        border: none;
+        font-weight: 800;
+        margin: 0.8em;
+        padding: 0.7em;
+        background: whitesmoke;
+    }
+    #equal
+{
+    background-color: rgb(236, 20, 20);
+    font-size: 1.2em;
+ 
+}
+}
