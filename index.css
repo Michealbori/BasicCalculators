@@ -18,7 +18,7 @@
 {
     height: 2em;
     font-size: 2em;
-    width: 52%;
+    width: 43%;
     background-color: rgb(236, 20, 20);
     border: none;
     font-weight: 800;
@@ -31,11 +31,7 @@
 {
 outline: none;
 }
-  /* #radius
-  {
-    width: 7%;
-    height: 50%;
-  } */
+
 .first_input input
 {
     padding: 0.7em;
@@ -89,65 +85,77 @@ outline: none;
 }
 @media only screen and (max-width: 600px) 
 {
-    .buttons_section > Div 
-{
-    margin-left: 2em;
-}
+
     .display-box #result
 {
     height: 2em;
     font-size: 2em;
-    width: 70%;
+    width: 60%;
     background-color: rgb(236, 20, 20);
     border: none;
     font-weight: 800;
     margin-top: 2em;
-    margin-left: 1em;
+    margin-left: 2em;
     border-radius: 0.2em;
     color: rgb(93, 89, 89);
     padding: 0.3em;
 }
+
     .first_input input
     {
         padding: 0.7em;
         border-radius: 50% 10%;
         border: none;
         font-weight: 800;
-        margin: 0.8em;
         background: whitesmoke;
+    }
+    .first_input #button
+    {
+        margin-left: 6em;
     }
     .second_input input
     {
         border-radius: 50% 10%;
         border: none;
         font-weight: 800;
-        margin: 0.8em;
         padding: 0.7em;
         background: whitesmoke;
+    }
+    .second_input #button
+    {
+        margin-left: 6em;
     }
     .third_input input
     {
         border-radius: 50% 10%;
         border: none;
         font-weight: 800;
-        margin: 0.8em;
         padding: 0.7em;
         background: whitesmoke;
     }
     
+    .third_input #button
+    {
+        margin-left: 6em;
+    }
     .last_input input
     {
         border-radius: 50% 10%;
         border: none;
         font-weight: 800;
-        margin: 0.8em;
         padding: 0.7em;
         background: whitesmoke;
+    }
+
+    .last_input #button
+    {
+        margin-left: 6em;
     }
     #equal
 {
     background-color: rgb(236, 20, 20);
-    font-size: 1.2em;
+    color: white;
+    font-size: 1em;
  
 }
 }
